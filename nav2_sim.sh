@@ -63,9 +63,9 @@ gnome-terminal --title="3d点云转2d" -- bash -c "
 source install/setup.bash;
 ros2 launch me_nav2_bringup pointcloud_to_laserscan_launch.py"
 
-gnome-terminal --title="small_gicp 重定位" -- bash -c "
-source install/setup.bash;
-ros2 launch small_gicp_relocalization small_gicp_relocalization_launch.py"
+# gnome-terminal --title="small_gicp 重定位" -- bash -c "
+# source install/setup.bash;
+# ros2 launch small_gicp_relocalization small_gicp_relocalization_launch.py"
 
 gnome-terminal --title="Nav2 导航" -- bash -c "
 source install/setup.bash;
