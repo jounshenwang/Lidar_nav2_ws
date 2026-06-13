@@ -1,5 +1,7 @@
 # Lidar_nav2_ws
 
+[English Documentation](./README_EN.md)
+
 基于 ROS 2 的 3D LiDAR 自主导航系统
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-22313F?logo=ros)](https://docs.ros.org/en/humble/)
@@ -39,6 +41,7 @@ TF 坐标树：**`map` &rarr; `odom` &rarr; `base_footprint` &rarr; `chassis` &r
 
 ```bash
 source /opt/ros/humble/setup.bash
+cd scripts
 ./build.sh
 ```
 
@@ -56,6 +59,7 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ```bash
 source install/setup.bash
+cd scripts
 ./mapping_sim.sh
 ```
 
@@ -76,6 +80,7 @@ source install/setup.bash
 然后启动：
 
 ```bash
+cd scripts
 ./nav2_sim.sh
 ```
 
@@ -84,6 +89,7 @@ source install/setup.bash
 ### 3.3 实机建图
 
 ```bash
+cd scripts
 ./mapping_real.sh
 ```
 
@@ -92,6 +98,7 @@ source install/setup.bash
 ### 3.4 实机导航
 
 ```bash
+cd scripts
 ./nav2_real.sh
 ```
 
@@ -125,15 +132,17 @@ vim src/registration/global_relocalization_kiss_matcher/launch/global_kiss_match
 
 ```bash
 source install/setup.bash
+cd scripts
 ./nav2_sim.sh
 # 或
 ./nav2_real.sh
 ```
 
-如果要使用 KISS-Matcher + small_gicp，请先确保 `nav2_sim.sh` / `nav2_real.sh` 中没有同时启动 `small_gicp_relocalization`，然后单独启动全局重定位节点：
+如果要使用 KISS-Matcher + small_gicp，请先确保 `scripts/nav2_sim.sh` / `scripts/nav2_real.sh` 中没有同时启动 `small_gicp_relocalization`，然后单独启动全局重定位节点：
 
 ```bash
 source install/setup.bash
+cd scripts
 
 # 1. 启动仿真或实机导航主流程
 ./nav2_sim.sh
@@ -313,7 +322,7 @@ killall -9 gzserver gzclient
 
 **LIO 里程计发散** — 检查 IMU 和 LiDAR 话题是否有数据（`ros2 topic echo`），确认 `lidar_type` 与传感器匹配，检查 `use_sim_time` 设置。
 
-**TF 断开 / 代价地图空白** — 使用 `./show_tf_tree.sh` 检查 TF 树，确认 `/scan` 正在发布，检查 `pointcloud_to_laserscan` 的目标坐标系是否与 LiDAR 坐标系一致。
+**TF 断开 / 代价地图空白** — 进入 `scripts/` 后使用 `./show_tf_tree.sh` 检查 TF 树，确认 `/scan` 正在发布，检查 `pointcloud_to_laserscan` 的目标坐标系是否与 LiDAR 坐标系一致。
 
 **重定位失败** — 确认 PCD 文件存在且非空，在 RViz 中使用 "2D Pose Estimate" 给出大致初始位姿，或尝试全局重定位方案。
 
@@ -327,6 +336,7 @@ killall -9 gzserver gzclient
 
 ```bash
 rm -rf build/ install/ log/
+cd scripts
 ./build.sh
 ```
 

@@ -91,11 +91,16 @@ Expected directory structure:
 ```text
 Lidar_nav2_ws/
 ├── src/
-├── build.sh
-├── mapping_sim.sh
-├── nav2_sim.sh
-├── mapping_real.sh
-└── nav2_real.sh
+└── scripts/
+    ├── build.sh
+    ├── mapping_sim.sh
+    ├── nav2_sim.sh
+    ├── mapping_real.sh
+    ├── nav2_real.sh
+    ├── save_map.sh
+    ├── save_pcd.sh
+    ├── show_tf_tree.sh
+    └── RUN.sh
 ```
 
 ## 3. Install Dependencies
@@ -158,7 +163,7 @@ Confirm the following:
 
 ### 4.2 KISS-Matcher
 
-`nav2_sim.sh` and `nav2_real.sh` use `global_relocalization_kiss_matcher` by default. If the build reports missing `kiss_matcher` or `robin`, install the C++ libraries:
+`scripts/nav2_sim.sh` and `scripts/nav2_real.sh` use `global_relocalization_kiss_matcher` by default. If the build reports missing `kiss_matcher` or `robin`, install the C++ libraries:
 
 ```bash
 cd ~/Lidar_nav2_ws/src/registration/KISS-Matcher
@@ -193,6 +198,7 @@ Build the workspace:
 ```bash
 cd ~/Lidar_nav2_ws
 source /opt/ros/humble/setup.bash
+cd scripts
 ./build.sh
 ```
 
@@ -205,7 +211,7 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 After the build completes, source the workspace:
 
 ```bash
-source install/setup.bash
+source ~/Lidar_nav2_ws/install/setup.bash
 ```
 
 Optional: Add it to `~/.bashrc` so new terminals source the workspace automatically:
@@ -245,6 +251,7 @@ Start simulation mapping:
 ```bash
 cd ~/Lidar_nav2_ws
 source install/setup.bash
+cd scripts
 ./mapping_sim.sh
 ```
 
@@ -277,6 +284,7 @@ Map output locations:
 Before navigation, check the map paths:
 
 ```bash
+cd ~/Lidar_nav2_ws
 vim src/me_nav2_bringup/launch/my_nav2_launch.py
 vim src/registration/global_relocalization_kiss_matcher/launch/global_kiss_matcher_relocalization_launch.py
 vim src/registration/small_gicp_relocalization/launch/small_gicp_relocalization_launch.py
@@ -293,6 +301,7 @@ Start simulation navigation:
 ```bash
 cd ~/Lidar_nav2_ws
 source install/setup.bash
+cd scripts
 ./nav2_sim.sh
 ```
 
@@ -317,14 +326,14 @@ Before real-robot mapping or navigation, confirm:
 Real-robot mapping:
 
 ```bash
-cd ~/Lidar_nav2_ws
+cd ~/Lidar_nav2_ws/scripts
 ./mapping_real.sh
 ```
 
 Real-robot navigation:
 
 ```bash
-cd ~/Lidar_nav2_ws
+cd ~/Lidar_nav2_ws/scripts
 ./nav2_real.sh
 ```
 
@@ -333,10 +342,10 @@ cd ~/Lidar_nav2_ws
 The current scripts use FAST-LIO by default. To switch to Point-LIO, edit the launch blocks in these scripts:
 
 ```bash
-vim mapping_sim.sh
-vim nav2_sim.sh
-vim mapping_real.sh
-vim nav2_real.sh
+vim scripts/mapping_sim.sh
+vim scripts/nav2_sim.sh
+vim scripts/mapping_real.sh
+vim scripts/nav2_real.sh
 ```
 
 Backend differences:
@@ -370,14 +379,16 @@ ros2 pkg list | grep xxx
 If it still cannot be found:
 
 ```bash
+cd ~/Lidar_nav2_ws/scripts
 ./build.sh
-source install/setup.bash
+source ../install/setup.bash
 ```
 
 ### Stale Gazebo Processes
 
 ```bash
 killall -9 gzserver gzclient
+cd ~/Lidar_nav2_ws/scripts
 ./mapping_sim.sh
 ```
 
@@ -387,7 +398,7 @@ killall -9 gzserver gzclient
 cd ~/Lidar_nav2_ws/src/registration/KISS-Matcher
 make deps
 make cppinstall
-cd ~/Lidar_nav2_ws
+cd ~/Lidar_nav2_ws/scripts
 ./build.sh
 ```
 
@@ -402,7 +413,7 @@ cmake --build build -j$(nproc)
 sudo cmake --install build
 sudo ldconfig
 
-cd ~/Lidar_nav2_ws
+cd ~/Lidar_nav2_ws/scripts
 ./build.sh
 ```
 
@@ -449,8 +460,10 @@ Common causes:
 ```bash
 # Build
 cd ~/Lidar_nav2_ws
+source /opt/ros/humble/setup.bash
+cd scripts
 ./build.sh
-source install/setup.bash
+source ../install/setup.bash
 
 # Simulation
 ./mapping_sim.sh

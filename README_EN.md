@@ -39,6 +39,7 @@ TF tree: **`map` &rarr; `odom` &rarr; `base_footprint` &rarr; `chassis` &rarr; `
 
 ```bash
 source /opt/ros/humble/setup.bash
+cd scripts
 ./build.sh
 ```
 
@@ -56,6 +57,7 @@ Rebuild after every source-code change. Before launching any node, make sure `so
 
 ```bash
 source install/setup.bash
+cd scripts
 ./mapping_sim.sh
 ```
 
@@ -76,6 +78,7 @@ Edit the following files so they point to the newly saved map and point cloud:
 Then start:
 
 ```bash
+cd scripts
 ./nav2_sim.sh
 ```
 
@@ -84,6 +87,7 @@ Use **"Nav2 Goal"** in RViz to send a navigation goal.
 ### 3.3 Real-Robot Mapping
 
 ```bash
+cd scripts
 ./mapping_real.sh
 ```
 
@@ -92,6 +96,7 @@ This replaces Gazebo with the Livox MID-360 hardware driver (`livox_ros_driver2`
 ### 3.4 Real-Robot Navigation
 
 ```bash
+cd scripts
 ./nav2_real.sh
 ```
 
@@ -125,15 +130,17 @@ The pure small_gicp option is usually already integrated into the navigation scr
 
 ```bash
 source install/setup.bash
+cd scripts
 ./nav2_sim.sh
 # or
 ./nav2_real.sh
 ```
 
-To use KISS-Matcher + small_gicp, first make sure `nav2_sim.sh` / `nav2_real.sh` does not also start `small_gicp_relocalization`, then start the global relocalization node separately:
+To use KISS-Matcher + small_gicp, first make sure `scripts/nav2_sim.sh` / `scripts/nav2_real.sh` does not also start `small_gicp_relocalization`, then start the global relocalization node separately:
 
 ```bash
 source install/setup.bash
+cd scripts
 
 # 1. Start the main simulation or real-robot navigation workflow
 ./nav2_sim.sh
@@ -313,7 +320,7 @@ killall -9 gzserver gzclient
 
 **LIO odometry diverges** - Check whether the IMU and LiDAR topics have data (`ros2 topic echo`), confirm that `lidar_type` matches the sensor, and check the `use_sim_time` setting.
 
-**TF disconnected / costmap is empty** - Use `./show_tf_tree.sh` to inspect the TF tree, confirm `/scan` is being published, and check whether the target frame in `pointcloud_to_laserscan` matches the LiDAR frame.
+**TF disconnected / costmap is empty** - Enter `scripts/` and use `./show_tf_tree.sh` to inspect the TF tree, confirm `/scan` is being published, and check whether the target frame in `pointcloud_to_laserscan` matches the LiDAR frame.
 
 **Relocalization fails** - Confirm that the PCD file exists and is not empty. Provide an approximate initial pose in RViz with "2D Pose Estimate", or try the global relocalization option.
 
@@ -327,6 +334,7 @@ killall -9 gzserver gzclient
 
 ```bash
 rm -rf build/ install/ log/
+cd scripts
 ./build.sh
 ```
 
