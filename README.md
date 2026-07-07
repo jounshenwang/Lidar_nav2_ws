@@ -66,8 +66,8 @@ cd scripts
 此命令启动 Gazebo、FAST-LIO、SLAM Toolbox、Nav2 和 GUI 遥控窗口。使用 WASD 键驾驶机器人遍历环境。覆盖足够面积后保存地图：
 
 ```bash
-./save_map.sh       # 保存 2D 占用栅格地图至 src/me_nav2_bringup/map/
-./save_pcd.sh       # 保存 3D 点云，手动移至 src/me_nav2_bringup/pcd/
+./scripts/save_map.sh       # 保存 2D 占用栅格地图至 src/me_nav2_bringup/map/
+./scripts/save_pcd.sh       # 保存 3D 点云，手动移至 src/me_nav2_bringup/pcd/
 ```
 
 ### 3.2 仿真导航

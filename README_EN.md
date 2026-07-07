@@ -64,8 +64,8 @@ cd scripts
 This command starts Gazebo, FAST-LIO, SLAM Toolbox, Nav2, and the GUI teleoperation window. Use the WASD keys to drive the robot through the environment. After enough area has been covered, save the maps:
 
 ```bash
-./save_map.sh       # Save the 2D occupancy grid map to src/me_nav2_bringup/map/
-./save_pcd.sh       # Save the 3D point cloud, then move it manually to src/me_nav2_bringup/pcd/
+./scripts/save_map.sh       # Save the 2D occupancy grid map to src/me_nav2_bringup/map/
+./scripts/save_pcd.sh       # Save the 3D point cloud, then move it manually to src/me_nav2_bringup/pcd/
 ```
 
 ### 3.2 Simulation Navigation

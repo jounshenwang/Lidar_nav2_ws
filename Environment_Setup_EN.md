@@ -198,11 +198,10 @@ Build the workspace:
 ```bash
 cd ~/Lidar_nav2_ws
 source /opt/ros/humble/setup.bash
-cd scripts
-./build.sh
+./scripts/build.sh
 ```
 
-`build.sh` is equivalent to:
+`scripts/build.sh` is equivalent to:
 
 ```bash
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
@@ -251,8 +250,7 @@ Start simulation mapping:
 ```bash
 cd ~/Lidar_nav2_ws
 source install/setup.bash
-cd scripts
-./mapping_sim.sh
+./scripts/mapping_sim.sh
 ```
 
 This script starts Gazebo, GUI teleoperation, FAST-LIO, `lio_interface`, `sensor_scan_generation`, `pointcloud_to_laserscan`, `slam_toolbox`, and Nav2.
@@ -268,8 +266,8 @@ ros2 run tf2_ros tf2_echo odom base_footprint
 After driving the robot through the environment, save the maps:
 
 ```bash
-./save_map.sh
-./save_pcd.sh
+./scripts/save_map.sh
+./scripts/save_pcd.sh
 ```
 
 Map output locations:
@@ -301,8 +299,7 @@ Start simulation navigation:
 ```bash
 cd ~/Lidar_nav2_ws
 source install/setup.bash
-cd scripts
-./nav2_sim.sh
+./scripts/nav2_sim.sh
 ```
 
 Runtime checks:
@@ -326,15 +323,15 @@ Before real-robot mapping or navigation, confirm:
 Real-robot mapping:
 
 ```bash
-cd ~/Lidar_nav2_ws/scripts
-./mapping_real.sh
+cd ~/Lidar_nav2_ws
+./scripts/mapping_real.sh
 ```
 
 Real-robot navigation:
 
 ```bash
-cd ~/Lidar_nav2_ws/scripts
-./nav2_real.sh
+cd ~/Lidar_nav2_ws
+./scripts/nav2_real.sh
 ```
 
 ## 8. Switching the LIO Backend
@@ -379,17 +376,17 @@ ros2 pkg list | grep xxx
 If it still cannot be found:
 
 ```bash
-cd ~/Lidar_nav2_ws/scripts
-./build.sh
-source ../install/setup.bash
+cd ~/Lidar_nav2_ws
+./scripts/build.sh
+source install/setup.bash
 ```
 
 ### Stale Gazebo Processes
 
 ```bash
 killall -9 gzserver gzclient
-cd ~/Lidar_nav2_ws/scripts
-./mapping_sim.sh
+cd ~/Lidar_nav2_ws
+./scripts/mapping_sim.sh
 ```
 
 ### Missing `kiss_matcher` or `robin`
@@ -398,8 +395,8 @@ cd ~/Lidar_nav2_ws/scripts
 cd ~/Lidar_nav2_ws/src/registration/KISS-Matcher
 make deps
 make cppinstall
-cd ~/Lidar_nav2_ws/scripts
-./build.sh
+cd ~/Lidar_nav2_ws
+./scripts/build.sh
 ```
 
 ### Missing `small_gicp`
@@ -413,8 +410,8 @@ cmake --build build -j$(nproc)
 sudo cmake --install build
 sudo ldconfig
 
-cd ~/Lidar_nav2_ws/scripts
-./build.sh
+cd ~/Lidar_nav2_ws
+./scripts/build.sh
 ```
 
 ### No Data on `/scan` or `/registered_scan`
@@ -461,22 +458,21 @@ Common causes:
 # Build
 cd ~/Lidar_nav2_ws
 source /opt/ros/humble/setup.bash
-cd scripts
-./build.sh
-source ../install/setup.bash
+./scripts/build.sh
+source install/setup.bash
 
 # Simulation
-./mapping_sim.sh
-./nav2_sim.sh
+./scripts/mapping_sim.sh
+./scripts/nav2_sim.sh
 
 # Real robot
-./mapping_real.sh
-./nav2_real.sh
+./scripts/mapping_real.sh
+./scripts/nav2_real.sh
 
 # Save maps
-./save_map.sh
-./save_pcd.sh
+./scripts/save_map.sh
+./scripts/save_pcd.sh
 
 # TF tree
-./show_tf_tree.sh
+./scripts/show_tf_tree.sh
 ```
