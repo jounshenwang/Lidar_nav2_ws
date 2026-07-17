@@ -19,10 +19,10 @@ source install/setup.bash;
 ros2 run gui_teleop gui_teleop_node"
 
 # -----------------------------------------------------------------------------------
-# # 使用fast-lio作为里程计
+# # 使用fast-lio作为里程计（仿真环境下必须 use_sim_time:=true）
 gnome-terminal --title="FAST-LIO 里程计" -- bash -c "
 source install/setup.bash;
-ros2 launch fast_lio mapping.launch.py"
+ros2 launch fast_lio mapping.launch.py use_sim_time:=true rviz:=false"
 
 # 里程计接口
 gnome-terminal --title="lio_interface" -- bash -c "
@@ -78,3 +78,21 @@ ros2 launch global_relocalization_kiss_matcher global_kiss_matcher_relocalizatio
 gnome-terminal --title="Nav2 导航" -- bash -c "
 source install/setup.bash;
 ros2 launch me_nav2_bringup my_nav2_launch.py"
+
+# =====================================================
+# 等待所有 Nav2 节点就绪后，手动过渡生命周期
+# 因 libdiagnostic_updater 系统库与 ROS2 不兼容，
+# 系统自带的 lifecycle_manager 会闪退，此处用 Python 替代
+# =====================================================
+sleep 12
+gnome-terminal --title="Lifecycle Manager (手动)" -- bash -c "
+source install/setup.bash;
+python3 src/me_nav2_bringup/scripts/manual_lifecycle_manager.py;
+sleep 3;
+echo '====== 设置初始位姿给 KISS-Matcher 触发重定位 ======';
+ros2 topic pub --once /initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {frame_id: map}, pose: {pose: {position: {x: 0, y: 0, z: 0}, orientation: {x: 0, y: 0, z: 0, w: 1}}, covariance: [0.25,0,0,0,0,0,0,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0685]}}' 2>&1;
+echo '====== 启动 map->odom bridge (50Hz 刷新防止 TF 超时) ======';
+python3 scripts/map_odom_bridge.py --ros-args -p use_sim_time:=true &
+sleep 2;
+echo '=== 系统就绪 === 如需调整位姿，在 RViz 中使用 2D Pose Estimate';
+exec bash"

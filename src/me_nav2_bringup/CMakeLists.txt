@@ -11,6 +11,7 @@ install(DIRECTORY
   pcd
   map
   rviz
+  scripts
   DESTINATION share/${PROJECT_NAME}
 )
 

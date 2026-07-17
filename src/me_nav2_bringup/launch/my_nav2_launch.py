@@ -15,10 +15,12 @@ def generate_launch_description():
     map_yaml_file = os.path.join(me_share_path, 'map', 'nav_test_4_27.yaml')
     rviz_file = os.path.join(me_share_path, 'rviz', 'nav2.rviz')
     
-    # 是否使用仿真时间
-    use_sim_time = False # False 
+    # 是否使用仿真时间 (Gazebo 仿真环境下必须为 True)
+    use_sim_time = True
 
     # 启动纯导航组件，不使用AMCL
+    # autostart: False — 由 manual_lifecycle_manager.py 手动管理生命周期，
+    # 避免系统 lifecycle_manager (libdiagnostic_updater 不兼容) 崩溃后残留僵尸节点
     navigation_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(nav2_bringup_dir, 'launch', 'navigation_launch.py')
@@ -26,7 +28,7 @@ def generate_launch_description():
         launch_arguments={
             'params_file': params_file,
             'use_sim_time': str(use_sim_time),
-            'autostart': 'True'
+            'autostart': 'False'
         }.items()
     )
 

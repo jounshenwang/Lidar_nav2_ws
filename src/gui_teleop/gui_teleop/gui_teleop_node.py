@@ -77,6 +77,7 @@ class GuiTeleopNode(Node):
     def __init__(self):
         super().__init__('gui_teleop_node')
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
+        self._last_published = None  # Track last published values to avoid spamming /cmd_vel
         self.get_logger().info('GUI Teleop 节点已启动')
 
 
@@ -391,6 +392,15 @@ class TeleopGUI:
         msg.linear.x = lx
         msg.linear.y = ly
         msg.angular.z = az
+
+        # 避免与 Nav2 的 velocity_smoother 在 /cmd_vel 上冲突:
+        # 当速度值未变化时跳过发布。Nav2 活动期间 gui_teleop 保持静默，
+        # 只有在用户按键产生新指令时才接管。
+        current = (lx, ly, az)
+        if current == self.node._last_published:
+            return
+        self.node._last_published = current
+
         self.node.publisher_.publish(msg)
 
     def tick(self):
