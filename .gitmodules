@@ -1,0 +1,3 @@
+[submodule "src/registration/KISS-Matcher"]
+	path = src/registration/KISS-Matcher
+	url = git@gh-jounshenwang:jounshenwang/KISS-Matcher.git
