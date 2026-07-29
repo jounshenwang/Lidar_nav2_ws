@@ -7,7 +7,7 @@ import struct
 import sys
 import signal
 
-OUTPUT = "/home/px4/Lidar_nav2_ws/src/me_nav2_bringup/pcd/accumulated_map.pcd"
+OUTPUT = "/home/jetson/Lidar_nav2_ws/src/me_nav2_bringup/pcd/accumulated_map.pcd"
 
 
 class Accumulator(Node):

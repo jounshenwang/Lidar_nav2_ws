@@ -20,7 +20,7 @@ class PcdSaver(Node):
 
 
 def main():
-    OUTPUT = "/home/px4/Lidar_nav2_ws/src/me_nav2_bringup/pcd/saved_map.pcd"
+    OUTPUT = "/home/jetson/Lidar_nav2_ws/src/me_nav2_bringup/pcd/saved_map.pcd"
 
     rclpy.init()
     node = PcdSaver()
