@@ -1,0 +1,11 @@
+[INFO] [launch]: All log files can be found below /home/px4/.ros/log/2026-07-10-11-41-16-224755-px4-virtual-machine-5807
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [fastlio_mapping-1]: process started with pid [5823]
+[fastlio_mapping-1] [INFO] [1783654877.856655059] [laser_mapping]: p_pre->lidar_type 5
+[fastlio_mapping-1] Multi thread started 
+[fastlio_mapping-1] ~~~~/home/px4/Lidar_nav2_ws/src/localization/FAST_LIO/ file opened
+[fastlio_mapping-1] [INFO] [1783654877.900392099] [laser_mapping]: Node init finished.
+[fastlio_mapping-1] IMU Initial Done
+[fastlio_mapping-1] [WARN] [1783654890.202246410] [laser_mapping]: No point, skip this scan!
+[fastlio_mapping-1] 
+[fastlio_mapping-1] [INFO] [1783654890.371477192] [laser_mapping]: Initialize the map kdtree

@@ -1,0 +1,4 @@
+[INFO] [launch]: All log files can be found below /home/px4/.ros/log/2026-07-10-11-41-18-205113-px4-virtual-machine-5869
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [lio_interface_node-1]: process started with pid [5878]
+[lio_interface_node-1] [0m[INFO] [1783654878.435962854] [lio_interface]: [35mLioInterface node is START[0m[0m

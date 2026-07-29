@@ -44,7 +44,7 @@ ros2 launch lio_interface lio_interface_launch.py"
 # gnome-terminal --title="Point-LIO 里程计" -- bash -c "
 # source install/setup.bash;
 # ros2 launch point_lio point_lio.launch.py \
-#   point_lio_cfg_dir:=/home/pio/Nav2_3D_ws/src/localization/point_lio/config/mid360_sim.yaml"
+#   point_lio_cfg_dir:=/home/px4/Lidar_nav2_ws/src/localization/point_lio/config/mid360_sim.yaml"
 
 # gnome-terminal --title="lio_interface" -- bash -c "
 # source install/setup.bash;
@@ -73,7 +73,7 @@ ros2 launch me_nav2_bringup pointcloud_to_laserscan_launch.py"
 gnome-terminal --title="slam_toolbox 建图" -- bash -c "
 source install/setup.bash;
 ros2 launch slam_toolbox online_async_launch.py \
-    slam_params_file:=/home/pio/Nav2_3D_ws/src/me_nav2_bringup/config/slam_toolbox_params.yaml"
+    slam_params_file:=/home/px4/Lidar_nav2_ws/src/me_nav2_bringup/config/slam_toolbox_params.yaml"
 
 gnome-terminal --title="Nav2 导航" -- bash -c "
 source install/setup.bash;

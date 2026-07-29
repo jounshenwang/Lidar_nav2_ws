@@ -81,4 +81,4 @@ ros2 launch small_gicp_relocalization small_gicp_relocalization_launch.py"
 
 # ros2 launch slam_toolbox online_async_launch.py \
 #     use_sim_time:=true \
-#     slam_params_file:=/home/pio/Nav2_3D_ws/src/me_nav2_bringup/config/slam_toolbox_params.yaml
+#     slam_params_file:=/home/px4/Lidar_nav2_ws/src/me_nav2_bringup/config/slam_toolbox_params.yaml

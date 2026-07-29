@@ -1,0 +1,13 @@
+[INFO] [launch]: All log files can be found below /home/px4/.ros/log/2026-07-10-11-45-39-694455-px4-virtual-machine-6434
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointcloud_to_laserscan_node-1]: process started with pid [6436]
+[pointcloud_to_laserscan_node-1] [WARN] [1783655139.828984515] [Pointcloud2d_3d]: New subscription discovered on topic '/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[pointcloud_to_laserscan_node-1] [WARN] [1783655212.289264514] [Pointcloud2d_3d]: New subscription discovered on topic '/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[pointcloud_to_laserscan_node-1] [INFO] [1783655242.144143498] [Pointcloud2d_3d]: Got a subscriber to laserscan, starting pointcloud subscriber
+[pointcloud_to_laserscan_node-1] [WARN] [1783656208.278665062] [Pointcloud2d_3d]: New subscription discovered on topic '/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[pointcloud_to_laserscan_node-1] [WARN] [1783656208.368158325] [Pointcloud2d_3d]: New subscription discovered on topic '/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[pointcloud_to_laserscan_node-1] [INFO] [1783656213.988760208] [Pointcloud2d_3d]: No subscribers to laserscan, shutting down pointcloud subscriber
+[pointcloud_to_laserscan_node-1] [INFO] [1783656246.463860772] [Pointcloud2d_3d]: Got a subscriber to laserscan, starting pointcloud subscriber
+[pointcloud_to_laserscan_node-1] [WARN] [1783656526.666863505] [Pointcloud2d_3d]: New subscription discovered on topic '/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[pointcloud_to_laserscan_node-1] [INFO] [1783656540.163101582] [Pointcloud2d_3d]: No subscribers to laserscan, shutting down pointcloud subscriber
+[pointcloud_to_laserscan_node-1] [INFO] [1783656541.166842791] [Pointcloud2d_3d]: Got a subscriber to laserscan, starting pointcloud subscriber

@@ -1,0 +1,367 @@
+[INFO] [launch]: All log files can be found below /home/px4/.ros/log/2026-07-10-11-45-40-908737-px4-virtual-machine-6480
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [global_kiss_matcher_relocalization_exec-1]: process started with pid [6482]
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655142.831170843] [kiss_matcher_relocalization]: Loaded global map with 1244976 points[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655142.832467971] [kiss_matcher_relocalization]: odom_to_lidar_odom: translation =    0    0 0.25, rpy = -0  0 -0[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655143.583344000] [kiss_matcher_relocalization]: KISSMatcher alignment: src=726, tgt=14597 (downsampled from 1361, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655143.807062915] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655143.808112671] [kiss_matcher_relocalization]: KISSMatcher initialization failed. Inliers: 0. Retrying next cycle...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655144.079862060] [kiss_matcher_relocalization]: KISSMatcher alignment: src=783, tgt=14597 (downsampled from 2724, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655144.335484991] [kiss_matcher_relocalization]: [1;32m# final inliers: 5 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655144.682923413] [kiss_matcher_relocalization]: Overlapness: 29.25% < 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655144.683064846] [kiss_matcher_relocalization]: KISSMatcher initialization failed. Inliers: 0. Retrying next cycle...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655144.799213358] [kiss_matcher_relocalization]: KISSMatcher alignment: src=783, tgt=14597 (downsampled from 2724, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655144.997562405] [kiss_matcher_relocalization]: [1;32m# final inliers: 5 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655145.328853165] [kiss_matcher_relocalization]: Overlapness: 29.25% < 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655145.328949207] [kiss_matcher_relocalization]: KISSMatcher initialization failed. Inliers: 0. Retrying next cycle...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655145.397358384] [kiss_matcher_relocalization]: KISSMatcher alignment: src=805, tgt=14597 (downsampled from 3403, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655145.655261772] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655145.655361275] [kiss_matcher_relocalization]: KISSMatcher initialization failed. Inliers: 0. Retrying next cycle...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655145.739464832] [kiss_matcher_relocalization]: KISSMatcher alignment: src=818, tgt=14597 (downsampled from 4088, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655145.940129860] [kiss_matcher_relocalization]: # final inliers: 2 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655145.940214425] [kiss_matcher_relocalization]: KISSMatcher initialization failed. Inliers: 2. Retrying next cycle...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655146.092064672] [kiss_matcher_relocalization]: KISSMatcher alignment: src=862, tgt=14597 (downsampled from 6815, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655146.189794925] [kiss_matcher_relocalization]: [1;32m# final inliers: 4 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655146.215060271] [kiss_matcher_relocalization]: Overlapness: [1;32m100.00% > 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655146.215213071] [kiss_matcher_relocalization]: KISSMatcher initialization succeeded. Inliers: 0[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655267.787797370] [kiss_matcher_relocalization]: Received initial pose: [x: 0.000000, y: 0.000000, z: 0.000000][0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655277.019704148] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655367.516715508] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655397.515957071] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655424.016710809] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655494.515732313] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655495.016868448] [kiss_matcher_relocalization]: GICP did not converge. fail_count=2/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655495.016927519] [kiss_matcher_relocalization]: GICP lost. Switching to KISSMatcher recovery.[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655495.595999826] [kiss_matcher_relocalization]: KISSMatcher alignment: src=992, tgt=14597 (downsampled from 4320, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655495.846860022] [kiss_matcher_relocalization]: [1;32m# final inliers: 5 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655496.070892843] [kiss_matcher_relocalization]: Overlapness: 18.45% < 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655496.071017323] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655500.594415296] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1503, tgt=14597 (downsampled from 17948, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655500.762099911] [kiss_matcher_relocalization]: [1;32m# final inliers: 10 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655500.923612943] [kiss_matcher_relocalization]: Overlapness: [1;32m99.93% > 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655501.072077337] [kiss_matcher_relocalization]: KISSMatcher recovery succeeded. Inliers: 0[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655501.073067269] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655620.523115436] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655624.015901738] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655639.016850636] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655723.518761730] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655724.016663323] [kiss_matcher_relocalization]: GICP did not converge. fail_count=2/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655724.016728338] [kiss_matcher_relocalization]: GICP lost. Switching to KISSMatcher recovery.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655724.516565518] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 338/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655725.015668068] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 450/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655725.516029498] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 557/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655726.015760115] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 661/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655726.515997250] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 812/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655727.017874968] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 863/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655727.590043976] [kiss_matcher_relocalization]: KISSMatcher alignment: src=135, tgt=14597 (downsampled from 1013, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655727.784237189] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655727.785507602] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655732.583134380] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1562, tgt=14597 (downsampled from 5652, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655732.792861036] [kiss_matcher_relocalization]: [1;32m# final inliers: 15 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655733.043328714] [kiss_matcher_relocalization]: Overlapness: [1;32m99.10% > 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655733.193849379] [kiss_matcher_relocalization]: KISSMatcher recovery succeeded. Inliers: 0[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655733.196049006] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655748.522827943] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655825.595590671] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655899.515683484] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655900.536665521] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655901.016075936] [kiss_matcher_relocalization]: GICP did not converge. fail_count=2/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655901.016165441] [kiss_matcher_relocalization]: GICP lost. Switching to KISSMatcher recovery.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655901.513612309] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 393/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655902.013409644] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 552/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655902.513666736] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 706/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655903.013562006] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 810/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655903.514390414] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 980/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655904.077390693] [kiss_matcher_relocalization]: KISSMatcher alignment: src=169, tgt=14597 (downsampled from 1157, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655904.206134963] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655904.206206433] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655908.570646344] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1686, tgt=14597 (downsampled from 6134, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655908.720312180] [kiss_matcher_relocalization]: [1;32m# final inliers: 21 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655908.828185788] [kiss_matcher_relocalization]: Overlapness: [1;32m97.21% > 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783655908.907818475] [kiss_matcher_relocalization]: KISSMatcher recovery succeeded. Inliers: 0[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655970.512065631] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655976.017245259] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655992.514584403] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783655996.515021218] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656013.012084592] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656014.083736085] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656021.012299791] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656028.012706865] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656032.512708021] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656036.512691870] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656037.014611666] [kiss_matcher_relocalization]: GICP did not converge. fail_count=2/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656037.014663952] [kiss_matcher_relocalization]: GICP lost. Switching to KISSMatcher recovery.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656037.511362555] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 142/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656038.010732154] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 210/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656038.514365581] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 247/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656039.010774568] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 316/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656039.511650845] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 352/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656040.012113771] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 387/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656040.522523779] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 457/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656041.012629957] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 526/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656041.510526916] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 560/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656042.010617564] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 629/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656042.510433368] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 663/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656043.010724838] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 735/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656043.510710822] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 805/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656044.010565259] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 839/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656044.510615915] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 875/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656045.010454488] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 945/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656045.510714540] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 979/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656046.084010434] [kiss_matcher_relocalization]: KISSMatcher alignment: src=62, tgt=14597 (downsampled from 1049, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656046.300653041] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656046.300840299] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656053.573748991] [kiss_matcher_relocalization]: KISSMatcher alignment: src=85, tgt=14597 (downsampled from 1710, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656053.773792202] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656053.773850199] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656060.577547547] [kiss_matcher_relocalization]: KISSMatcher alignment: src=104, tgt=14597 (downsampled from 2449, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656060.735566423] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656060.735711319] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656067.086687758] [kiss_matcher_relocalization]: KISSMatcher alignment: src=105, tgt=14597 (downsampled from 3153, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656067.298543344] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656067.298606496] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656072.579784890] [kiss_matcher_relocalization]: KISSMatcher alignment: src=106, tgt=14597 (downsampled from 3866, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656072.733331109] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656072.733412999] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656078.570525400] [kiss_matcher_relocalization]: KISSMatcher alignment: src=106, tgt=14597 (downsampled from 4570, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656078.695597938] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656078.698311474] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656085.080882516] [kiss_matcher_relocalization]: KISSMatcher alignment: src=106, tgt=14597 (downsampled from 5243, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656085.201505008] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656085.202343541] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656092.579950877] [kiss_matcher_relocalization]: KISSMatcher alignment: src=107, tgt=14597 (downsampled from 5993, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656092.777799753] [kiss_matcher_relocalization]: # final inliers: 2 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656092.778155394] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 2. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656099.582359038] [kiss_matcher_relocalization]: KISSMatcher alignment: src=108, tgt=14597 (downsampled from 6739, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656099.759529147] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656099.759591104] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656106.587887714] [kiss_matcher_relocalization]: KISSMatcher alignment: src=108, tgt=14597 (downsampled from 7451, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656106.754543490] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656106.754624493] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656113.067407808] [kiss_matcher_relocalization]: KISSMatcher alignment: src=108, tgt=14597 (downsampled from 8127, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656113.214268024] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656113.216471900] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656118.083713921] [kiss_matcher_relocalization]: KISSMatcher alignment: src=108, tgt=14597 (downsampled from 8842, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656118.222308520] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656118.222385239] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656123.578990002] [kiss_matcher_relocalization]: KISSMatcher alignment: src=108, tgt=14597 (downsampled from 9595, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656123.767230367] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656123.767427326] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656129.076548454] [kiss_matcher_relocalization]: KISSMatcher alignment: src=108, tgt=14597 (downsampled from 10308, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656129.195312039] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656129.196190602] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656136.090266616] [kiss_matcher_relocalization]: KISSMatcher alignment: src=108, tgt=14597 (downsampled from 11057, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656136.262945553] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656136.264790202] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656143.062789593] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 11799, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656143.295831954] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656143.295886472] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656150.064902858] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 12477, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656150.322916430] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656150.323004962] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656157.076696233] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 13228, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656157.318541968] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656157.318611123] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656164.581673317] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 13982, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656164.791643926] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656164.791728927] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656171.571863668] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 14663, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656171.743698244] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656171.744940545] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656178.078366990] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 15379, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656178.284515867] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656178.284577133] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656183.560584637] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 16128, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656183.691330258] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656183.691404154] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656189.085265234] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 16844, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656189.277590852] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656189.277664677] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656194.568570264] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 17598, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656194.739248400] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656194.740732071] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656201.067390779] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 18320, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656201.260219083] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656201.260295354] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656209.068245391] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 19075, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656209.285848606] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656209.285951124] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656217.096589102] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 19794, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656217.336351884] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656217.336414692] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656224.603898408] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 20545, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656224.838717639] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656224.838825659] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656231.577796906] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 21265, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656231.690529038] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656231.690611000] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656238.583596912] [kiss_matcher_relocalization]: KISSMatcher alignment: src=109, tgt=14597 (downsampled from 21992, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656238.810117741] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656238.810210082] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656246.583647925] [kiss_matcher_relocalization]: KISSMatcher alignment: src=110, tgt=14597 (downsampled from 22723, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656246.768279033] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656246.768375277] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656253.058565191] [kiss_matcher_relocalization]: KISSMatcher alignment: src=111, tgt=14597 (downsampled from 23456, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656253.235677742] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656253.235753185] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656260.084107255] [kiss_matcher_relocalization]: KISSMatcher alignment: src=111, tgt=14597 (downsampled from 24162, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656260.321734219] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656260.321877459] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656266.582835386] [kiss_matcher_relocalization]: KISSMatcher alignment: src=111, tgt=14597 (downsampled from 24903, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656266.881457747] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656266.881539434] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656274.080979550] [kiss_matcher_relocalization]: KISSMatcher alignment: src=111, tgt=14597 (downsampled from 25644, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656274.268927821] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656274.269092500] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656282.082450602] [kiss_matcher_relocalization]: KISSMatcher alignment: src=112, tgt=14597 (downsampled from 26424, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656282.303493350] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656282.303737690] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656288.588025759] [kiss_matcher_relocalization]: KISSMatcher alignment: src=114, tgt=14597 (downsampled from 27161, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656288.787093696] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656288.788090038] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656295.585218695] [kiss_matcher_relocalization]: KISSMatcher alignment: src=114, tgt=14597 (downsampled from 27872, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656295.781333971] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656295.781945803] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656303.088100787] [kiss_matcher_relocalization]: KISSMatcher alignment: src=114, tgt=14597 (downsampled from 28578, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656303.294420178] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656303.294502731] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656311.078583516] [kiss_matcher_relocalization]: KISSMatcher alignment: src=114, tgt=14597 (downsampled from 29363, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656311.287234644] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656311.287555025] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656319.084171903] [kiss_matcher_relocalization]: KISSMatcher alignment: src=114, tgt=14597 (downsampled from 30108, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656319.217778020] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656319.219695518] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656326.589757680] [kiss_matcher_relocalization]: KISSMatcher alignment: src=114, tgt=14597 (downsampled from 30855, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656326.852374538] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656326.852456985] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656334.070209666] [kiss_matcher_relocalization]: KISSMatcher alignment: src=116, tgt=14597 (downsampled from 31651, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656334.226299630] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656334.226386502] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656341.575295369] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 32372, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656341.795644254] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656341.796376634] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656349.091312664] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 33131, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656349.352708777] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656349.352795529] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656357.072563859] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 33856, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656357.275763272] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656357.275926758] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656365.082689841] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 34655, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656365.340395819] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656365.340484052] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656372.571557012] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 35418, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656372.771898963] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656372.771980797] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656380.093261662] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 36183, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656380.405384020] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656380.405491683] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656387.104220445] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 36944, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656387.343276828] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656387.343597824] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656394.067343143] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 37738, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656394.371789388] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656394.371860362] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656401.594583212] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 38492, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656401.766721578] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656401.766813948] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656409.077028207] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 39242, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656409.310989860] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656409.311110791] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656415.577264553] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 39988, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656415.730813435] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656415.731392149] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656423.583130279] [kiss_matcher_relocalization]: KISSMatcher alignment: src=118, tgt=14597 (downsampled from 40773, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656423.724823318] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656423.724909784] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656430.070719782] [kiss_matcher_relocalization]: KISSMatcher alignment: src=130, tgt=14597 (downsampled from 41478, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656430.308772336] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656430.308847599] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656437.079141345] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1280, tgt=14597 (downsampled from 43969, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656437.290569947] [kiss_matcher_relocalization]: [1;32m# final inliers: 7 > 3[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656437.397323366] [kiss_matcher_relocalization]: Overlapness: [1;32m93.75% > 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656437.408926296] [kiss_matcher_relocalization]: KISSMatcher recovery succeeded. Inliers: 0[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656450.000709478] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656467.500452930] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656472.500312563] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656484.501740478] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656524.998337729] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656525.498610462] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656526.499871055] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656529.999930969] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656531.498453148] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656536.498534717] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656538.498505279] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656541.500054664] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656551.501120760] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656554.000212747] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656556.998848629] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656562.998682656] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656571.498511870] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656575.998805723] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656591.998155388] [kiss_matcher_relocalization]: No accumulated points to process.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656596.501686345] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656597.511312312] [kiss_matcher_relocalization]: GICP did not converge. fail_count=1/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656597.998234051] [kiss_matcher_relocalization]: GICP did not converge. fail_count=2/2[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656597.998281368] [kiss_matcher_relocalization]: GICP lost. Switching to KISSMatcher recovery.[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656598.501481911] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 206/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656599.000532622] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 255/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656599.498157115] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 304/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656599.998554252] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 353/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656600.498208985] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 402/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656600.998232973] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 451/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656601.498572259] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 500/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656602.003144574] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 598/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656602.499081102] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 598/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656602.998931374] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 647/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656603.499200684] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 696/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656603.998464874] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 794/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656604.498262392] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 843/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656604.998086214] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 941/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656605.498140283] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 990/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656605.998212723] [kiss_matcher_relocalization]: KISSMatcher recovery waiting for points: 990/1000[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656606.579093051] [kiss_matcher_relocalization]: KISSMatcher alignment: src=277, tgt=14597 (downsampled from 1088, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656606.836549378] [kiss_matcher_relocalization]: # final inliers: 3 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656607.218096039] [kiss_matcher_relocalization]: Overlapness: 11.55% < 80.00%[0m[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656607.218201911] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656615.579327215] [kiss_matcher_relocalization]: KISSMatcher alignment: src=578, tgt=14597 (downsampled from 2070, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656615.925666698] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656615.928258840] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656624.062357800] [kiss_matcher_relocalization]: KISSMatcher alignment: src=861, tgt=14597 (downsampled from 2988, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656624.374099035] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656624.374152836] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656633.074602408] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1172, tgt=14597 (downsampled from 3958, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656633.311600696] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656633.314204890] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656642.086686054] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1437, tgt=14597 (downsampled from 4884, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656642.324512741] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656642.324734753] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656649.605624288] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1539, tgt=14597 (downsampled from 5824, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656649.898847878] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656649.900091964] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656658.070222325] [kiss_matcher_relocalization]: KISSMatcher alignment: src=1837, tgt=14597 (downsampled from 6822, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656658.395780914] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656658.395831770] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656666.094728750] [kiss_matcher_relocalization]: KISSMatcher alignment: src=2160, tgt=14597 (downsampled from 7872, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656666.465449873] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656666.465582235] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656674.586655477] [kiss_matcher_relocalization]: KISSMatcher alignment: src=2472, tgt=14597 (downsampled from 8872, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656674.948827924] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656674.953415383] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656682.565209882] [kiss_matcher_relocalization]: KISSMatcher alignment: src=2808, tgt=14597 (downsampled from 9816, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656682.867016885] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656682.867129011] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656691.070167615] [kiss_matcher_relocalization]: KISSMatcher alignment: src=3117, tgt=14597 (downsampled from 10813, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656691.430749994] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656691.430818023] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656700.063788526] [kiss_matcher_relocalization]: KISSMatcher alignment: src=3424, tgt=14597 (downsampled from 11790, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656700.390254643] [kiss_matcher_relocalization]: # final inliers: 0 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656700.391033257] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 0. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656708.576223868] [kiss_matcher_relocalization]: KISSMatcher alignment: src=3738, tgt=14597 (downsampled from 12772, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656708.906838668] [kiss_matcher_relocalization]: # final inliers: 2 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656708.906935782] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 2. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656716.574563251] [kiss_matcher_relocalization]: KISSMatcher alignment: src=4001, tgt=14597 (downsampled from 13747, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656716.933996392] [kiss_matcher_relocalization]: # final inliers: 2 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656716.937076144] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 2. Continue accumulating...[0m
+[global_kiss_matcher_relocalization_exec-1] [0m[INFO] [1783656725.591100260] [kiss_matcher_relocalization]: KISSMatcher alignment: src=4279, tgt=14597 (downsampled from 14761, 1244976)[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656725.928206422] [kiss_matcher_relocalization]: # final inliers: 2 < 3[0m
+[global_kiss_matcher_relocalization_exec-1] [33m[WARN] [1783656725.928268330] [kiss_matcher_relocalization]: KISSMatcher recovery failed. Inliers: 2. Continue accumulating...[0m
